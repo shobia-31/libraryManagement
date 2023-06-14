@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#book-list {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.book {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.book:hover{
+    background-image: linear-gradient(to right, #973BED, #007CFF);
+
+}
+.book h3 {
+  margin: 0;
+}
+
+.book p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
