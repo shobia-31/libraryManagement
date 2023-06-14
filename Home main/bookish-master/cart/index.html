@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+
+
+
+<div class="container">
+  <div class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="logo-removebg-preview (1).png" alt="RedStore" width="125px" /></a>
+    </div>
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="file:///C:/Users/Smart/Desktop/DEVREV/Home%20main/bookish-master/index.html">Home</a></li>
+        <li><a href="file:///C:/Users/Smart/Desktop/DEVREV/Home%20main/bookish-master/index.html#author">Book</a></li>
+        <li><a href="file:///C:/Users/Smart/Desktop/DEVREV/Home%20main/bookish-master/Search/index.html">Search</a></li>
+        <li><a href="file:///C:/Users/Smart/Desktop/DEVREV/sign-in-up/index.html">Account</a></li>
+      </ul>
+    </nav>
+    <!-- <a href="cart.html"><img src="https://i.ibb.co/PNjjx3y/cart.png" alt="" width="30px" height="30px" /></a> -->
+    <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+  </div>
+</div>
+
+<!-- cart items details -->
+
+<div class="small-container cart-page">
+  <table>
+    <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Subtotal</th>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="vampire.png" alt="" />
+          <div>
+            <p>My Vampire System <br>
+                Webnovel <br>
+                Author:JKSManga</p>
+            <small>Price $500.00</small>
+            <br />
+            <a href="#" class="btn-remove">Remove</a>
+          </div>
+        </div>
+      </td>
+      <td><input type="number" value="1" /></td>
+      <td>$500.00</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="affinity.png" alt="" />
+          <div>
+            <p>Affinity: Chaos <br>
+                Author:Springs_Halo</p>
+            <small>Price $1500.00</small>
+            <br />
+            <a href="#" class="btn-remove">Remove</a>
+          </div>
+        </div>
+      </td>
+      <td><input type="number" value="1" /></td>
+      <td>$1500.00</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="ignit.png" alt="" />
+          <div>
+            <p>Ignite Me <br>
+                Author:Tahereh Mafi</p>
+            <small>Price $1500.00</small>
+            <br />
+            <a href="#" class="btn-remove">Remove</a>
+          </div>
+        </div>
+      </td>
+      <td><input type="number" value="1" /></td>
+      <td>$1500.00</td>
+    </tr>
+  </table>
+
+  <div class="total-price">
+    <table>
+      <tr>
+        <td>Subtotal</td>
+        <td>$3500.00</td>
+      </tr>
+      <tr>
+        <td>Tax</td>
+        <td>$15.00</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>$3515.00</td>
+      </tr>
+      <tr class="btn">
+      <td><button><a href="file:///C:/Users/Smart/Desktop/DEVREV/Home%20main/bookish-master/after%20rent/index.html">BUY NOW</a></button></td>
+    </tr>
+    </table> <br>
+
+  </div>
+
+ 
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and iso mobile phone.</p>
+        <div class="app-logo">
+          <img src="https://i.ibb.co/KbPTYYQ/play-store.png" alt="" />
+          <img src="https://i.ibb.co/hVM4X2p/app-store.png" alt="" />
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="logo-removebg-preview (1).png" alt="" />
+        <p>
+          Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+          Learning Accessible to the Many.
+        </p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">Copyright &copy; 2023 - Shobia</p>
+  </div>
+</div>
+
+<script>
+  var MenuItems = document.getElementById('MenuItems');
+  MenuItems.style.maxHeight = '0px';
+
+  function menutoggle() {
+    if (MenuItems.style.maxHeight == '0px') {
+      MenuItems.style.maxHeight = '200px';
+    } else {
+      MenuItems.style.maxHeight = '0px';
+    }
+  }
+</script>
+
+</body>
+</html>
